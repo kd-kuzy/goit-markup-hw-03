@@ -38,9 +38,11 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
-  padding: 0 15px;
-  outline: 1.2px solid tomato;
+  width: 1170px;
+  /* outline: 1.2px solid tomato; */
+}
+.img-work .img-workpeople .img-portfolio{
+  display: block;
 }
 /* logo */
 .bodi-logo {
@@ -63,7 +65,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--fon-color);
-  font-weight: ;
 }
 /* heder */
 .header {
@@ -75,6 +76,7 @@ body {
 }
 
 .container-header {
+  display: block;
   margin-top: 25px;
 }
 .nav-list,
@@ -113,6 +115,7 @@ body {
 .container-main {
   margin-top: 200px;
   justify-content: center;
+  text-align: center;
 }
 .studio,
 .portfolio {
@@ -129,14 +132,19 @@ body {
   color: var(--text-color);
 }
 /* студія */
-
+.maim-index{
+  display: block;
+  width: 1600px;
+  height: 2094px;
+  margin: 0;
+  padding: 0;
+}
 .main-title {
   margin: 0;
   font-family: var(--main-font-roboto);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--fon-color);
@@ -164,13 +172,15 @@ body {
   padding: 0;
   position: absolute;
   width: 1170px;
-  height: 98px;
-  left: 215px;
+   left: 215px;
   top: 774px;
 }
 .list-section-benefits {
   display: flex;
   padding: 0;
+}
+.item-benefits{
+  width: 270px;
 }
 .item-benefits:not(:last-child) {
   margin-right: 30px;
@@ -271,6 +281,11 @@ body {
   color: var(--text-color);
 }
 /* Портфоліо */
+.main-portfolio{
+  display: block;
+  width: 1600px;
+  height: 1628px;
+}
 .container-filter .list {
   display: flex;
   justify-content: center;
@@ -289,10 +304,9 @@ body {
 .container-portfolio .list {
   display: flex;
   flex-wrap: wrap;
-  /* flex-basis: calc((100% - 20px) / 3); */
   position: absolute;
   width: 1170px;
-  height: 1360px;
+  /* height: 1360px; */
   left: 215px;
   top: 262px;
 }
@@ -347,7 +361,7 @@ body {
   margin-bottom: 0;
 }
 .title-portfolio {
-  margin-top: 0;
+  margin:0;
   margin-bottom: 4px;
   padding-top: 20px;
   padding-left: 24px;
@@ -373,11 +387,12 @@ body {
 /* footer */
 
 .footer {
+  display: block;
   position: absolute;
   width: 1600px;
   height: 252px;
-  left: 0px;
-  top: 2094px;
+  /* left: 0px;
+  top: 2094px; */
 }
 .container-footer {
   margin-top: 60px;
