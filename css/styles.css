@@ -25,6 +25,9 @@ p {
 .list {
   margin: 0;
   list-style: none;
+   display: flex;
+  justify-content: space-between;
+  padding-left: 0;
 }
 .link,
 .bodi-logo,
@@ -96,8 +99,6 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
-
-.list,
 .head-nav,
 .container-header {
   display: flex;
@@ -189,7 +190,7 @@ body {
   padding-bottom: 94px;
 }
 .list-section-benefits {
-  align-items: flex-start;
+  /* align-items: flex-start; */
 }
 .item-benefits {
   width: 270px;
