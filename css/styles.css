@@ -96,14 +96,16 @@ body {
 .header {
   border-bottom: 1px solid #ececec;
 }
+
 .list,
 .head-nav,
 .container-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding-left: 0;
+  align-items: center;
 }
+
 .aside-list {
   margin: 0;
 }
@@ -185,6 +187,9 @@ body {
 .main-section-benefits {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.list-section-benefits {
+  align-items: flex-start;
 }
 .item-benefits {
   width: 270px;
