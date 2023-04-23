@@ -277,14 +277,14 @@ img {
 }
 
 .list-section-filter {
-    margin-bottom: 34px;
-    justify-content: center;
+  margin-bottom: 34px;
 }
 .item-filter-button:not(:last-child) {
   margin-right: 8px;
 }
 .container-portfolio .list {
   flex-wrap: wrap;
+  justify-content: center;
 }
 .btn-filter {
   padding: 6px 22px;
