@@ -277,7 +277,8 @@ img {
 }
 
 .list-section-filter {
-  margin-bottom: 34px;
+    margin-bottom: 34px;
+    justify-content: center;
 }
 .item-filter-button:not(:last-child) {
   margin-right: 8px;
